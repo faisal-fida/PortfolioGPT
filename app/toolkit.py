@@ -28,6 +28,7 @@ class PortfolioToolkit(BaseToolkit):
 
     def get_tools(self) -> List[BaseTool]:
         """Get the tools in the toolkit."""
+        print("Getting tools", SkillsData(api_wrapper=self.api_wrapper))
         return [
             SkillsData(api_wrapper=self.api_wrapper),
         ]
