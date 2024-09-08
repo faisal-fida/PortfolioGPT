@@ -1,4 +1,4 @@
-def clean_about_data(self, data: dict) -> dict:
+def clean_skills_data(data: dict) -> dict:
     """
     Clean the general information about Faisal.
     """
